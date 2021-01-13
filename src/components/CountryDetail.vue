@@ -1,6 +1,8 @@
 <template lang="html">
   <div>
-      <h3>Selected Country</h3>
+      <h3>{{country.name}}</h3>
+      <p>Capital: {{country.capital}}</p>
+      <p>Population: {{country.population}}</p>
   </div>
 </template>
 
