@@ -6,6 +6,7 @@
 </template>
 
 <script>
+import { eventBus } from './main.js';
 import CountriesList from './components/CountriesList.vue';
 
 export default {
